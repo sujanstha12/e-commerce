@@ -1,0 +1,252 @@
+.usericon
+{
+margin-right: -121px;
+}
+
+.hearticon{
+margin-right: 26px;
+}
+
+.carticon{
+    margin-right: 100px ;
+}
+
+.newco
+{
+    margin-top: 150px;
+    background-color: aqua;
+    margin-right: 467px;
+    margin-left: 2px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.shop
+{
+    height: 500px;
+    width: 600px;
+}
+
+.discover{
+    font-size: 60px;
+
+}
+
+.fashion
+{
+    text-decoration: underline;
+color: blueviolet;
+text-decoration-color: bisque;
+}
+
+.lorem1
+{
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+a.btn1:hover {
+    background-color: red;
+    color: white; /* Optionally, change the text color to white */
+}
+
+a.active1:hover
+{
+    color: blue;
+}
+
+a.active2:hover
+{
+    color: blue;
+}
+a.active3:hover
+{
+    color: blue;
+}
+a.active4:hover
+{
+    color: blue;
+}
+
+a.active5:hover
+{
+    color: blue;
+}
+a.active6:hover
+{
+    color: blue;
+}
+.free{
+    font: 200px;
+    color: black;
+   margin-right: 40px;
+}
+
+.shipping{
+    background-color: skyblue;
+}
+
+/* Add padding to the footer */
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+  }
+
+  .footer1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer p {
+    margin-bottom: 10px;  /* Add space between each paragraph */
+  }
+
+
+.estore{
+    background-color: bisque;
+}
+
+.face{
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+.face:hover{
+transform: rotate(360deg);
+color: white;
+}
+
+.search{
+    width: 400px;
+}
+.cn
+{
+    background-color: cadetblue;
+    height: 300px;
+}
+
+
+/* Set up the carousel container */
+.carousel {
+    width: 100%;
+    overflow: hidden; /* Hide the overflowed cards */
+  }
+
+  .carousel-container {
+    display: flex;
+    animation: slide 40s infinite linear; /* The sliding animation */
+  }
+
+  .card {
+    flex: 0 0 20%; /* Each card takes up 20% of the container's width */
+    margin: 0 10px; /* Add space between the cards */
+    background-color: #007bff; /* Card background color */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevents image overflow */
+  }
+
+  .card img {
+    width: 100%; /* Make image fill the card */
+    height: auto; /* Keep the image aspect ratio */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+  }
+
+  .card p {
+    margin-top: 10px; /* Add space between image and text */
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Slide all cards to the left */
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+
+  .text-center {
+    text-align: center;
+  }
+
+/* Styling for product container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .product-card h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .product-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .add-to-cart {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .add-to-cart:hover {
+    background-color: #0056b3;
+  }
+
+  /* Cart styling */
+  .cart-container {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+  }
+
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #cart-items li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  #total-price {
+    font-weight: bold;
+    margin-top: 20px;
+  }
