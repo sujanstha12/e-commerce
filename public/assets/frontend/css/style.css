@@ -1,6 +1,6 @@
 .usericon
 {
-margin-right: -121px;
+margin-right: 24px;
 }
 
 .hearticon{
@@ -104,8 +104,12 @@ footer {
 
 
 .estore{
+
     background-color: bisque;
+
 }
+
+
 
 .face{
     transition: 0.3s ease-in-out;
@@ -193,7 +197,7 @@ color: white;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    width: 200px;
+    width: 260px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 
@@ -250,3 +254,332 @@ color: white;
     font-weight: bold;
     margin-top: 20px;
   }
+  .dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+    margin: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.profile-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-header p {
+    color: #777;
+    font-size: 16px;
+}
+
+.bio {
+    margin-top: 30px;
+}
+
+.bio h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.bio p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.address, .order-history {
+    margin-top: 30px;
+}
+
+.address h2, .order-history h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.address ul, .order-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.address ul li, .order-history ul li {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.order-list {
+    margin-top: 20px;
+}
+
+.order {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.order-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.order-header .status {
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.order-header .status.pending {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.order-header .status.completed {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.order-items {
+    margin-bottom: 10px;
+}
+
+.order-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-items li {
+    background-color: #f8f8f8;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.order-total {
+    font-weight: bold;
+    text-align: right;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.wishlist-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    width: 200px;
+    text-align: center;
+}
+
+.wishlist-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.wishlist-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.wishlist-item .price {
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.wishlist-item button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.wishlist-item button:hover {
+    background-color: #e53935;
+}
+.container-first{
+    width: 96%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .settings-section {
+            margin-top: 30px;
+        }
+
+        .settings-section h2 {
+            color: #333;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .settings-section .setting {
+            margin-bottom: 15px;
+        }
+
+        .setting label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .setting input, .setting select {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .setting input[type="file"] {
+            padding: 3px;
+        }
+
+        .setting button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .setting button:hover {
+            background-color: #45a049;
+        }
+
+        .profile-image {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .profile-image img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile-image input[type="file"] {
+            margin-top: 10px;
+        }
+
+        .privacy-options label {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .notifications label {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .save-btn {
+            display: flex;
+            justify-content: flex-end;
+        }

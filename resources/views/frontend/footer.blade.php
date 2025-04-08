@@ -5,7 +5,7 @@
                 class="bi bi-cash"></i></p>
         <p class="text-center">Terms of Services &nbsp; Privacy Policy &nbsp; Cookies Settings</p>
         <p class="text-center"><i class="bi bi-c-circle"></i> Copyright eStore; All rights reserved.</p>
-        <p class="text-center"><a class="link-offset-1"
+        <p class="text-center"><a class="link-offset-1" target="_blank"
                 href="https://bootstrapmade.com/demo/eStore/">Designed by SujanPro</a></p>
 
 

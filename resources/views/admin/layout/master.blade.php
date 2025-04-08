@@ -29,6 +29,10 @@
     <link rel="stylesheet" href="{{ asset('assets/css/perfect-scrollbar.css') }}" />
     <!-- custom css -->
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.1.0/ckeditor5.css">
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -42,6 +46,8 @@
             <div id="content">
                 @include('admin.layout.header')
                 <div class="midde_cont">
+                    @include('sweetalert::alert')
+
                     @yield('container')
                     @include('admin.layout.footer')
                 </div>
@@ -71,6 +77,19 @@
     <!-- custom js -->
     <script src="{{ asset('assets/js/custom.js') }}"></script>
     <script src="{{ asset('assets/js/chart_custom_style1.js') }}"></script>
+    <script src="https://cdn.ckeditot.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+        .create(document.querySelector('#editor'),
+        {
+            ckfinder:{
+                uploadUrl:'{{ route("upload") }}?_token={{ csrf_token() }}'
+            }
+        })
+        .catch(error=>{
+            console.error(error);
+        });
+    </script>
 </body>
 
 </html>
